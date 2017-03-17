@@ -1,25 +1,32 @@
 /*Header text färg och storlek*/
 h1 {
-	color: #000000;
-	font-family: "Arial", Times, serif;
-	font-size: 40px;
-	background-color:;
 }
-/*Paragrafstycke*/
+.signature{
+	width: 80%;
+}
+
+
 p {
+	color: #000000;
+	font-size: 24px;
+	background-color:;
 } 
 
-/*Bakgrundsbild i body*/
 body{
-	background-color: white;
-	font-family: "Avantgarde", serif;
+	background-color: #FAEBD7;
+}
+{
+	color: #000000;
+	font-size: 20px;
+	background-color:;
 }
 .img-circle {
     border-radius: 50%;
-    width: 350px;
+    width: 250px;
 }
-img {
-    width: 10%;
+
+.socialmediaimage{
+    width: 5%;
     height: auto;
     padding-top: 40px;
     padding-right: 10px;
