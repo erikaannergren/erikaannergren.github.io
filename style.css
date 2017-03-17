@@ -1,0 +1,26 @@
+/*Header text färg och storlek*/
+h1 {
+	color: #000000;
+	font-family: "Arial", Times, serif;
+	font-size: 40px;
+	background-color:;
+}
+/*Paragrafstycke*/
+p {
+} 
+
+/*Bakgrundsbild i body*/
+body{
+	background-color: white;
+	font-family: "Avantgarde", serif;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 350px;
+}
+img {
+    width: 10%;
+    height: auto;
+    padding-top: 40px;
+    padding-right: 10px;
+}
