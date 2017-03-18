@@ -1,4 +1,21 @@
 /*Header text färg och storlek*/
+body{
+	background: -webkit-linear-gradient(##F5F5DC,#DCDCDC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F5F5DC,#DCDCDC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F5F5DC,#DCDCDC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F5F5DC,#DCDCDC); /* Standard syntax (must be last) */
+    background-repeat: no-repeat;
+    background-color:#DCDCDC;
+}
+
+.wrapper{
+	width:90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.space{
+	margin:20px;
+}
 
 .img-circle{
     border-radius: 50%;
@@ -18,19 +35,20 @@ h2{
 	font-style: italic;
 }
 
+footer{
+	text-align: center;
+}
+
 p {
 	color: #000000;
 	font-size: 16px;
 	font-family:"Times New Roman", Times, serif;
-} 
-
-.wrapper{
-    background: -webkit-linear-gradient(#FAEBD7,#F08080); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#FAEBD7,#F08080); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#FAEBD7,#F08080); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#FAEBD7,#F08080); /* Standard syntax (must be last) */
 }
 
+a {
+	text-transform: none;
+	text-decoration: none;
+} 
 .socialmediaimage {
 	border-radius: 13px;
     width: 50px;
