@@ -1,40 +1,41 @@
 /*Header text färg och storlek*/
-h1 {
-}
-.signature{
-	width: 70%;
-}
 
-
-p {
-	color: #000000;
-	font-size: 24px;
-	background-color:;
-} 
-
-body{
-	background-color: #FAEBD7;
-}
-{
-	color: #000000;
-	font-size: 20px;
-	background-color:;
-}
-.img-circle {
+.img-circle{
     border-radius: 50%;
     width: 250px;
 }
 
-.socialmediaimage{
+.signature{
+	width: 70%;
+}
+
+h2{
+	color: #000000;
+	font-size: 24px;
+	font-family: "Times New Romas", Times, serif;
+}
+.fontstyle{
+	font-style: italic;
+}
+
+p {
+	color: #000000;
+	font-size: 16px;
+	font-family:"Times New Roman", Times, serif;
+} 
+
+.wrapper{
+    background: -webkit-linear-gradient(#FAEBD7,#F08080); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FAEBD7,#F08080); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FAEBD7,#F08080); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FAEBD7,#F08080); /* Standard syntax (must be last) */
+}
+
+.socialmediaimage {
 	border-radius: 13px;
     width: 50px;
     height: 50px;
     padding-to
-}
-
-.workimage{
-	width:20%;
-	height: auto;
 }
 
 @media only screen and (min-width:760px) {
