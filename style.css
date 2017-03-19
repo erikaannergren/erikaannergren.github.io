@@ -1,11 +1,31 @@
 /*Header text färg och storlek*/
 body{
-	background: -webkit-linear-gradient(##F5F5DC,#DCDCDC); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#F5F5DC,#DCDCDC); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#F5F5DC,#DCDCDC); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#F5F5DC,#DCDCDC); /* Standard syntax (must be last) */
+	background: -webkit-linear-gradient(##F5F5DC,#808080); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F5F5DC,#808080); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F5F5DC,#808080); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F5F5DC,#808080); /* Standard syntax (must be last) */
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color:#DCDCDC;
+}
+
+.show-menu {
+	transform: translateX(340px);
+}
+
+.nav.visible {
+	display: block;
+}
+
+.nav {
+	width: 340px;
+	height: 100%;
+	background: #808080;
+	color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	padding: 20px;
 }
 
 .wrapper{
@@ -31,12 +51,9 @@ h2{
 	font-size: 24px;
 	font-family: "Times New Romas", Times, serif;
 }
+
 .fontstyle{
 	font-style: italic;
-}
-
-footer{
-	text-align: center;
 }
 
 p {
@@ -53,7 +70,6 @@ a {
 	border-radius: 13px;
     width: 50px;
     height: 50px;
-    padding-to
 }
 
 @media only screen and (min-width:760px) {

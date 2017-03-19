@@ -1,3 +1,5 @@
-<div id="js-wrapper">
-<a href="#" id="js-menu"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
-</div>
+
+document.getElementById("js-menu").addEventListener("click", function() {
+	document.getElementById("js-wrapper").classList.toggle("show-menu");
+	document.getElementById("js-nav").classList.toggle("visible");
+});
