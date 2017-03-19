@@ -29,7 +29,9 @@ body{
 }
 .navtext{
 	margin-top:50%;
+	padding:10%;
 	text-align: center;
+	font-size: 24px;
 }
 
 .navicon{
@@ -39,6 +41,7 @@ body{
 
 .navicon a{
 	color:#000000;
+
 }
 
 .navicon a:hover{
