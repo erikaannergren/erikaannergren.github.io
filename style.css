@@ -27,6 +27,24 @@ body{
 	display: none;
 	padding: 20px;
 }
+.navtext{
+	margin-top:50%;
+	text-align: center;
+}
+.navicon{
+	margin:30px;
+	
+}
+
+.navicon a{
+	color:darkgrey;
+}
+
+.nav a{
+	color:#ffffff;
+}
+
+
 
 .wrapper{
 	width:90%;
