@@ -31,20 +31,23 @@ body{
 	margin-top:50%;
 	text-align: center;
 }
+
 .navicon{
 	margin:30px;
 	
 }
 
 .navicon a{
-	color:darkgrey;
+	color:#000000;
+}
+
+.navicon a:hover{
+	color:lightgrey;
 }
 
 .nav a{
 	color:#ffffff;
 }
-
-
 
 .wrapper{
 	width:90%;
@@ -83,11 +86,16 @@ p {
 a {
 	text-transform: none;
 	text-decoration: none;
-} 
-.socialmediaimage {
-	border-radius: 13px;
-    width: 50px;
-    height: 50px;
+}
+.space a{
+	color:#000000;
+	margin-top: 5%;
+	margin: 2%;
+}
+.space a:hover{
+	color:lightgrey;
+	margin-top: 5%;
+	margin: 2%;
 }
 
 @media only screen and (min-width:760px) {
